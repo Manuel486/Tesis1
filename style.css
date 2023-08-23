@@ -9,3 +9,14 @@
   top: 0;
   z-index: -1;
 }
+
+main {
+  border-right: 3px solid #808080;
+}
+
+@media (max-width: 768px) {
+  /* Aplicar el borde solo en pantallas más grandes o iguales a "md" */
+  main {
+    border-right: none;
+  }
+}
